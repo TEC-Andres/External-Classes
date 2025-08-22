@@ -10,6 +10,7 @@
 #       Last Modified:          08/22/2025
 '''
 # Se que el código es terrible, pero era para hacer todos los problemas en un solo archivo, de maneras no convencionales para que mis compañeros no me puedan copiar
+import math
 
 class Problems():
     def __init__(self):
@@ -68,7 +69,7 @@ class Problems():
                 print(f"El área del rectángulo es: {area}")
             elif figura == "Círculo":
                 radio = float(input("Introduce el radio del círculo: "))
-                area = 3.14159 * radio ** 2
+                area = math.pi * radio ** 2
                 print(f"El área del círculo es: {area}")
             elif figura == "Triángulo":
                 base = float(input("Introduce la base del triángulo: "))
