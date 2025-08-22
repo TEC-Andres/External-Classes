@@ -81,7 +81,9 @@ class PreFunc():
 
     def obtenercifras(self, num):
         num = str(num)
-        return len(num)
+        if len(num) > 3:
+            return print("Hubo un error")
+        return print(f"El número de cifras es: {len(num)}")
 
 class Problems():
     def __init__(self):
@@ -100,7 +102,7 @@ class Problems():
 
     def problem3(self):
         self.prefunc.menuP3()
-        print(f"El número de cifras es: {self.prefunc.obtenercifras(self.prefunc.num)}")
+        self.prefunc.obtenercifras(self.prefunc.num)
 
     def index(self):
         __index = int(input(f"Pon el número del ejercicio (Entre el {self.lowerbound} y el {self.upperbound}): "))
