@@ -4,7 +4,7 @@
 #
 #       Copyright (C) Tecnológico de Monterrey
 #
-#       File: main.py
+#       File: classexperiment.py
 #
 #       Created:                08/22/2025
 #       Last Modified:          08/22/2025
